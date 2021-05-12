@@ -5,7 +5,11 @@
 <script>
 export default {
   name: 'vuex',
-  mounted() {}
+  mounted() {
+    let x = 1
+    x = 2
+    x.toFixed(0)
+  }
 }
 </script>
 
